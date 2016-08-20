@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<title>Laboratorio 01 de HTML5 Y CSS3 REPASO</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Esta es la descripcion de la pagina web."/>
+		<meta name="keywords" content="tutoriales,html5,css3,web,js"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1" />
+		<link rel="stylesheet" href="css/estilos.css">
+		<link href="https://file.myfontastic.com/covUE4JhRpzXzX2LnhUUBP/icons.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<img src="img/banner.jpg" alt="banner">
+			<nav class="nav-up">
+				<!--<div id="toogle-menu">Menu</div>-->
+				<ul class="menu displayBlock">
+					<li> <a href="index.html" ><span class="icon-inicio"></span>Inicio</a></li>
+					<li> <a href="empresa.html"><span class="icon-empresa"></span>Empresa</a></li>
+					<li> <a href="productos.html"><span class="icon-producto"></span>Productos</a></li>
+					<li> <a href="servicios.html"><span class="icon-servicio"></span>Servicios</a></li>
+					<li> <a href="catalogo.html"><span class="icon-catalogo"></span>Catalogos</a></li>
+					<li> <a href="ofertas.html"><span class="icon-tag">Ofertas</a></li>
+					<li> <a href="#" style="background-color:tomato"><span class="icon-contacto"></span>Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+		<aside class="yt-card">
+			<h2>Contáctanos</h2>
+			<article class="card-horizontal">
+				<h3 class="icon-email"> e-mailL</h2>
+				<p>contacto.pe@linio.com</p>
+				<h3 class="icon-phone"> télefono</h2>
+				<p>(01) 640-0240</p>
+				
+			</article>
+		</aside>
+		<section class="yt-card">
+			<section class="form">
+				
+				<form action="" id="form1" method="POST">
+				  <h2>Contacto</h2>
+				  <label for="nombre">Nombre: </label>
+				  <input type="text" name="nombre" id="nomb"  requeried/>
+				  
+				  <label for="email">Correo Electronico: </label>
+				  <input type="email" name="email" id="email"  requeried/>
+  
+				  <label for="tel">teléfono: </label>
+				  <input type="tel" name="tel" id="tel"  requeried/>
+				  
+				  <label for="seleccion">Deseo: </label>
+				  	<select name="seleccion">
+						<option value="">---Select---</option><option value="Más información">Más información</option>
+						<option value="Cotización">Cotización</option>
+						<option value="Comprar productos">Comprar productos</option>
+						<option value="Servicios en tu empresa">Servicios en tu empresa</option>
+						<option value="Servicios en tu casa">Servicios en tu casa</option>
+						<option value="Hacer comentarios">Hacer comentarios</option>
+					</select>
+					<label for="message">Mensaje: </label>
+					<textarea id="message" name="message" placeholder="Escribe tu mensaje" maxlength="1000"></textarea>
+				  <button type="submit">Enviar</button>
+				</form>
+		</section>  
+		</section>
+		</main>
+		<footer class="yt-card">
+			<nav class="nav-down">
+				<ul>
+					<li> <a href="index.html">Inicio</a></li>
+					<li> <a href="empresa.html">Empresa</a></li>
+					<li> <a href="productos.html">Productos</a></li>
+					<li> <a href="servicios.html">Servicios</a></li>
+					<li> <a href="catalogo.html">Catalogos</a></li>
+					<li> <a href="ofertas.html">Ofertas</a></li>
+					<li> <a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+			<p>Copyright © Roger Gregorio Colquehuanca Calcina</p>
+		</footer>
+	</body>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/scripts.js"></script>
+</html>
